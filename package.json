@@ -1,8 +1,9 @@
 {
   "name": "@chax-at/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base eslint configs",
   "main": "index.js",
+  "repository": "chax-at/eslint-config",
   "keywords": [
     "eslintconfig",
     "eslint"
