@@ -1,0 +1,18 @@
+{
+  "name": "@chax-at/eslint-config",
+  "version": "0.0.1",
+  "description": "Base eslint configs",
+  "main": "index.js",
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "@typescript-eslint/eslint-plugin": ">= 4.6.0",
+    "@typescript-eslint/parser": ">= 4.6.0"
+  }
+}
