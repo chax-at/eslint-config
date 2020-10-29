@@ -57,3 +57,12 @@ Add the config to the extends rule section of your `.eslintrc`
   ]
 }
 ```
+
+## Developers
+
+To test changes locally:
+
+* run `npm link` in the cloned eslint-config project directory
+* run `npm link @chax-at/eslint-config` in the project you want to test your config
+* make sure you rerun the above command after an `npm install`
+* run `npm unlink @chax-at/eslint-config` after you are done
