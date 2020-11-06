@@ -73,6 +73,9 @@
         "ignoreProperties": true
       }
     ],
+    "@typescript-eslint/no-misused-promises": [
+      "error"
+    ],
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-shadow": [
@@ -95,6 +98,18 @@
     "@typescript-eslint/return-await": "error",
     "@typescript-eslint/semi": [
       "error"
+    ],
+    "@typescript-eslint/strict-boolean-expressions": [
+      "off",
+      {
+        "allowAny": false,
+        "allowNullableBoolean": false,
+        "allowNullableNumber": false,
+        "allowNullableObject": true,
+        "allowNullableString": false,
+        "allowNumber": false,
+        "allowString": true
+      }
     ],
     "arrow-body-style": "off",
     "arrow-parens": [
