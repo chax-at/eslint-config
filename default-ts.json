@@ -182,7 +182,7 @@
       }
     ],
     "no-continue": "off",
-    "no-dupe-class-members": "warn",
+    "no-dupe-class-members": "off",
     "no-else-return": "warn",
     "no-empty-function": "off",
     "no-nested-ternary": "warn",
