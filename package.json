@@ -1,6 +1,6 @@
 {
   "name": "@chax-at/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Base eslint configs",
   "main": "index.js",
   "repository": "chax-at/eslint-config",
@@ -8,7 +8,9 @@
     "eslintconfig",
     "eslint"
   ],
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "author": "",
   "license": "ISC",
   "peerDependencies": {
