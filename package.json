@@ -1,6 +1,6 @@
 {
   "name": "@chax-at/eslint-config",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Base eslint configs",
   "main": "index.js",
   "repository": "chax-at/eslint-config",
