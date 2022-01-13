@@ -240,6 +240,7 @@
       }
     ],
     "prefer-template": "error",
+    "spaced-comment": "error",
     "quotes": "off",
     "semi": [
       "off"
