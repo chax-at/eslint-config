@@ -111,6 +111,7 @@ react project:
     }
   ]
 }
+```
 
 ## Developers
 
