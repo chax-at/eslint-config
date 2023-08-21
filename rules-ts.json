@@ -246,6 +246,7 @@
     "template-curly-spacing": [
       "error",
       "never"
-    ]
+    ],
+    "@typescript-eslint/no-namespace": "off"
   }
 }
