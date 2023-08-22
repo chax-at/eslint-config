@@ -47,22 +47,16 @@
       }
     ],
     "@typescript-eslint/member-delimiter-style": "error",
-    "@typescript-eslint/naming-convention": [
-      "error",
-      {
-        "format": [
-          "PascalCase"
-        ],
-        "prefix": [
-          "I"
-        ],
-        "selector": "interface"
-      }
-    ],
     "@typescript-eslint/no-dupe-class-members": [
       "error"
     ],
     "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      {
+        "allowSingleExtends": true
+      }
+    ],
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-inferrable-types": [
@@ -165,6 +159,7 @@
     "linebreak-style": "off",
     "lines-between-class-members": "off",
     "max-classes-per-file": "off",
+    "max-params": ["error", 3],
     "max-len": [
       "warn",
       {
@@ -232,13 +227,7 @@
         "ignoreReadBeforeAssign": false
       }
     ],
-    "prefer-destructuring": [
-      "warn",
-      {
-        "array": false,
-        "object": true
-      }
-    ],
+    "prefer-destructuring": "off",
     "prefer-template": "error",
     "spaced-comment": "error",
     "quotes": "off",
@@ -257,6 +246,7 @@
     "template-curly-spacing": [
       "error",
       "never"
-    ]
+    ],
+    "@typescript-eslint/no-namespace": "off"
   }
 }
