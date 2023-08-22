@@ -8,9 +8,6 @@
     "eslintconfig",
     "eslint"
   ],
-  "scripts": {
-    "publish": "npm publish --access public"
-  },
   "author": "",
   "license": "ISC",
   "peerDependencies": {
