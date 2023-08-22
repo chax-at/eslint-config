@@ -159,7 +159,7 @@
     "linebreak-style": "off",
     "lines-between-class-members": "off",
     "max-classes-per-file": "off",
-    "max-params": "error",
+    "max-params": ["error", 3],
     "max-len": [
       "warn",
       {
