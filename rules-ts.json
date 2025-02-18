@@ -1,4 +1,7 @@
 {
+  "plugins": [
+    "max-params-no-constructor"
+  ],
   "rules": {
     "@typescript-eslint/await-thenable": [
       "error"
@@ -159,7 +162,7 @@
     "linebreak-style": "off",
     "lines-between-class-members": "off",
     "max-classes-per-file": "off",
-    "max-params": ["error", 3],
+    "max-params-no-constructor/max-params-no-constructor": ["error", 3],
     "max-len": [
       "warn",
       {
@@ -247,6 +250,15 @@
       "error",
       "never"
     ],
-    "@typescript-eslint/no-namespace": "off"
-  }
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/no-unnecessary-type-assertion": ["error"]
+  },
+  "overrides": [
+    {
+      "files": ["*.controller.ts"],
+      "rules": {
+        "max-params-no-constructor/max-params-no-constructor": "off"
+      }
+    }
+  ]
 }

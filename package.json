@@ -1,6 +1,6 @@
 {
   "name": "@chax-at/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Base eslint configs",
   "main": "index.js",
   "repository": "chax-at/eslint-config",
@@ -16,5 +16,8 @@
     "eslint": ">= 7",
     "eslint-plugin-react": ">= 7.0.0",
     "eslint-plugin-react-hooks": ">= 4.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-max-params-no-constructor": "^0.0.4"
   }
 }
